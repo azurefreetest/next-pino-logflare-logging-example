@@ -6,7 +6,7 @@ import logger from '../logger/logger'
 export default function Home() {
   // Logging to pino-logflare.
   // Will get sent to Logflare via HTTP.
-  logger.info("Client side logging. Logged with pino-logflare.")
+  logger.info("Client side logging. Logged with pino-logflare.環境変数持ちでもいけたわ！")
 
   // Logging with pino. 
   // Will appear only in the console of the client.
